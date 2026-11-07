@@ -9,6 +9,21 @@ description = "Evidence-first CLI for repository and dependency safety review"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{ name = "RepoSentry contributors" }]
+license = "MIT"
+keywords = ["security", "supply-chain-security", "cli", "static-analysis", "dependencies"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/IAbuElRuzz/RepoSentry"
+Repository = "https://github.com/IAbuElRuzz/RepoSentry"
+Issues = "https://github.com/IAbuElRuzz/RepoSentry/issues"
 
 [project.scripts]
 reposentry = "reposentry.cli:main"
